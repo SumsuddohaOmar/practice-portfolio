@@ -39,8 +39,8 @@
 }
 .head {
   text-align: right;
-  margin-top: 250px;
-  margin-left: 1200px;
+  top: 250px;
+  left: 1200px;
   width: 30%;
   position: absolute;
 }
