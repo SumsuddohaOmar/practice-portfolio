@@ -81,6 +81,131 @@ ul li::marker {
   font-weight: bolder;
   font-size: 20px;
 }
-.sec-list{
+.sec-list {
   margin-left: -20px;
+}
+/* second section styles */
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin-top: 90px;
+}
+.second-sec {
+  margin-top: 130px;
+  text-align: center;
+}
+.plan-name > img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 30px;
+}
+.plan-title {
+  color: #151414;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.plan-description {
+  color: #737272;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/* third section styles */
+.third-sec {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+.bg-image {
+  width: 1300px;
+  height: 350px;
+  background:
+    linear-gradient(to right, rgba(241, 91, 34, 1), rgba(241, 91, 34, 0)),
+    url("../images/watch.png") no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 8px;
+}
+.top-content {
+  position: absolute;
+  width: 600px;
+  margin-top: 60px;
+  margin-left: 100px;
+}
+.top-text {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: bold;
+}
+.btn-call {
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #ffffff;
+  color: #f15b22;
+  padding: 20px 40px;
+  border: 0;
+  border-radius: 5px;
+}
+/* footer section styles */
+.footer-sec {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+  background-color: black;
+  margin-top: 130px;
+  padding: 100px 0;
+}
+.contact-info {
+  width: 600px;
+  color: white;
+}
+.contact-info h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.contact-info p {
+  font-size: 18px;
+}
+.contact-info a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.icons img {
+  margin-right: 20px;
+}
+.subscribe{
+  margin-top: 50px;
+}
+.subscribe h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.subscribe input {
+  display: block;
+}
+.subscribe input[type="email"] {
+  width: 300px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  border: 1px solid #ffffff;
+}
+.subscribe input[type="submit"] {
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #ffffff;
+  color: #f15b22;
+  padding: 20px 30px;
+  border: 0;
+  border-radius: 5px;
+  margin-top: 20px;
 }
